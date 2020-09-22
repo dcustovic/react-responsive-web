@@ -1,0 +1,116 @@
+:root {
+  --primary: white;
+}
+
+.btn {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+/* styles */
+.btn--primary {
+  background-color: var(--primary);
+  color: #242424;
+  border: 1px solid var(--primary);
+}
+
+.btn--outline {
+  background-color: transparent;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  transition: all 0.3s ease-out;
+}
+/* styles */
+
+/* sizes */
+.btn--mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 75%;
+  text-decoration: none;
+  font-size: 24px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 8px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+.btn--large {
+  padding: 12px 26px;
+  font-size: 20px;
+}
+
+.btn--wide {
+  padding: 12px 64px;
+  font-size: 20px;
+}
+
+.btn--mobile:hover,
+.btn--medium:hover,
+.btn--large:hover {
+  transition: all 0.2s ease-out;
+  background: #f00946e5;
+  color: white;
+}
+
+.btn--wide:hover {
+  color: white;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
+}
+/* sizes */
+
+/* colors */
+.primary {
+  background-color: #242424;
+  color: white;
+  border: none;
+}
+
+.primary:hover {
+  background-color: rgb(252, 186, 4);
+  color: #242424;
+  border: none;
+}
+
+.blue {
+  background-color: #276afb;
+  color: white;
+  border: none;
+}
+
+.red {
+  background-color: #f00946;
+  color: white;
+  border: none;
+}
+
+.green {
+  background-color: #25ce4a;
+  color: white;
+  border: none;
+}
+
+/* colors */
